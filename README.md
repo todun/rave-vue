@@ -3,13 +3,14 @@
 ======================================
 
 ### Project Setup
-1. clone the repo to your desktop
-2. cd into the folder
+1. clone the repo to your desktop by running the code `git clone https://github.com/emmajiugo/rave-vue.git` on your CMD
+2. cd into the project folder
 3. Run `npm install` to install all dependencies
 4. Compile and Hot-reload for developement
     ```
         npm run serve
     ```
+5. By default, your project should be running on `port: 8080`. Go to your browser and type `localhost:8080` to start your project testing.
 
 ### Features Included
 - Card Payment
@@ -18,10 +19,10 @@
 - Subaccount (i.e. for split payments)
 
 ### How To Use
-After setting up the project on your computer, open the `App.vue` file from your *src* folder and add your credentials and details as necessary.
+After setting up the project on your computer, open the `App.vue` file from your **src** folder and add your credentials and details as necessary.
 
 ##### Sample code for editting on the App.vue file
-```
+```javascript
     //you can set all values you want to pass
     raveKey: "FLWPUBK-XXXXXX-X", // replace with your key from your dashboard
     email: "test@example.com", // email address of your client
@@ -53,7 +54,7 @@ You can set all the values you want to pass to the above code to run your test.
 To get your Rave's `Public-key` and `Secret-Key`, visit and signup on `https://ravesandbox.flutterwave.com/` for test keys, while for your live keys, visit and signup on `https://rave.flutterwave.com/`
 
 To go live, make sure your live keys are used and open `rave-modal.vue` from your `component folder` and set the `isProduction` default to `true`.
-```
+```javascript
     isProduction: {
         type: Boolean,
         required: false,
@@ -62,4 +63,5 @@ To go live, make sure your live keys are used and open `rave-modal.vue` from you
 ```
 
 Thankyu!!!
+
 Chigbo Ezejiugo (HRH Emmajiugo)
