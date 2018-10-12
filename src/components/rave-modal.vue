@@ -42,7 +42,7 @@
       },
       metadata: {
           type: Object,
-          default: () => { return {} }
+          default: function () { return {} }
       },
       currency: {
           type: String,
@@ -82,7 +82,7 @@
       },
       subaccounts: {
           type: Object,
-          default: () => { return {} }
+          default: function () { return {} }
       },
       payment_method: {
           type: String,

@@ -35,7 +35,7 @@ export default {
       //you can set all values you want to pass and initialize it in the template above
       raveKey: "FLWPUBK-56e4a2c6c9a6b58364bfd07fc1993e2c-X", // replace with your key from your dashboard
       email: "test@example.com", // email address of your client
-      amount: 1,  // replace with your desired amount
+      amount: 10,  // replace with your desired amount
       currency: "NGN", // supported currencies NGN, USD, EUR, GBP UGX, TZX, GHS, KES, ZAR
       country: "NG", // pass country NG, GH, KE, ZA 
       customer: {
